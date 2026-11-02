@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "alexdade31-evalplat_jd212"
+name = "alexdade31-job_preemption_fairness_schema_check"
 version = "0.1.0"
 description = "从样本里推断模型评测平台工程师·作业抢占与调度公平性应有的字段集合，逐字段检查存在性与类型，缺失项单独列出"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://alexdade31.github.io"
-Repository = "https://github.com/alexdade31/evalplat_jd212"
-Issues = "https://github.com/alexdade31/evalplat_jd212/issues"
+Repository = "https://github.com/alexdade31/job_preemption_fairness_schema_check"
+Issues = "https://github.com/alexdade31/job_preemption_fairness_schema_check/issues"
 
 [project.scripts]
-evalplat_jd212 = "evalplat_jd212:main"
+job_preemption_fairness_schema_check = "job_preemption_fairness_schema_check:main"
 
 [tool.setuptools]
-py-modules = ["evalplat_jd212"]
+py-modules = ["job_preemption_fairness_schema_check"]
